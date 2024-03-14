@@ -38,7 +38,7 @@ function HandleClick ()
   return (
     <div className="App">
     
-    <label className="select1">View API Data:</label>
+    <label className="select1">View API Data: 777</label>
 
     <input type="text" className="select1" onChange={ (e) => { HandleChange(e)} } />
     <button className="select1" onClick={ HandleClick }  >Set new id</button>
