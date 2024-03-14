@@ -38,10 +38,10 @@ function HandleClick ()
   return (
     <div className="App">
     
-    <label className="select1">View API Data: 777</label>
+    <label className="select1">View API Data:</label>
 
     <input type="text" className="select1" onChange={ (e) => { HandleChange(e)} } />
-    <button className="select1" onClick={ HandleClick }  >Set new id</button>
+    <button className="select1" onClick={ HandleClick }  >Get Student by id</button>
         {data.map((dataObj, index) => {
           return (
             <div key= {dataObj.id}
