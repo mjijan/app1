@@ -94,3 +94,60 @@ nav {
   text-align: center;
   font-weight: bold;
 }
+
+.temp1 {
+  height: 40px;
+  background-color: rgb(183, 183, 183);
+  width: 240px;
+}
+
+.createSTD {
+  position: absolute;
+  left: 400px;
+  width : 400px;
+  min-height: 400px;
+  background-color: rgb(78, 133, 80);
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.createSTD label {
+  width : 150px;
+  background-color: rgb(208, 208, 208);
+  display: inline-block;
+  margin: 10px 0 2px 0 ;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.createSTD input {
+  width : 100%;
+  background-color: blanchedalmond;
+  display: block;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.createSTD select {
+  width : 100%;
+  background-color: blanchedalmond;
+  display: block;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.createSTD button {
+  width : 100%;
+  background-color: rgb(3, 0, 94);
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
